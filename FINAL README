@@ -1,0 +1,54 @@
+# CRM Data Model (Foundry-Style Project)
+
+This project demonstrates how I designed a CRM-style data model inspired by my work in Palantir Foundry.
+
+The goal was to transform messy raw datasets into a clean, explorable business model.
+
+---
+
+## 🧱 Core Entities
+
+The system models three main objects:
+
+- PERSON – individuals working at companies  
+- COMPANY – organizations employing people  
+- EMPLOYMENT – relationship object linking people to companies  
+
+This reflects a real-world many-to-many structure.
+
+---
+
+## 🔄 Data Pipeline Flow
+
+1. Raw datasets uploaded (People + Companies)
+2. Cleaning pipelines remove duplicates, standardize fields, and generate keys
+3. Cleaned datasets power ontology objects
+4. Employment object links PERSON and COMPANY
+5. Dashboard visualizes CRM relationships
+
+---
+
+## 🎯 Key Skills Demonstrated
+
+- Data cleaning & normalization  
+- Entity relationship modeling  
+- Ontology design (Foundry-style)  
+- End-to-end data lineage understanding  
+- Translating messy data into a usable business model  
+
+---
+
+## 📌 Why This Project Matters
+
+This project shows how I approach real-world data problems:
+
+- Understanding raw data structure
+- Designing meaningful business objects
+- Connecting pipelines to ontology
+- Making data explorable for users
+
+This mirrors how production data platforms are built in enterprise environments.
+
+
+
+## 🗂 Repository Structure
